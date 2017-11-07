@@ -1,0 +1,115 @@
+{  
+    "Index":{  
+        "title":"What we do?",
+        "paragraphs":[  
+            "Software Development",
+            "Software Maintenance",
+            "Marvelous Solutions"
+        ],
+        "image":"main_page_background_medium.png"
+    },
+    "Software Development":{  
+        "title":"Software Development",
+        "blocks":{  
+            "Front-end":{  
+                "title":"Front-end",
+                "icon":"front-end.png",
+                "paragraph":"some text"
+            },
+            "Back-end":{  
+                "title":"Back-end",
+                "icon":"back-end.png",
+                "paragraph":"some text"
+            }
+        }
+    },
+    "Software Maintenance":{  
+        "title":"Software Maintenance",
+        "blocks":{  
+            "Adaptive":{  
+                "title":"Adaptive",
+                "icon":"Adaptive.png",
+                "paragraph":"some text"
+            },
+            "Perfective":{  
+                "title":"Perfective",
+                "icon":"Perfective.png",
+                "paragraph":"some text"
+            },
+            "Preventive":{  
+                "title":"Preventive",
+                "icon":"Preventive.png",
+                "paragraph":"some text"
+            }
+        }
+    },
+    "Portfolio":[  
+        {  
+            "title":"Example1",
+            "photo":"example_photo_1.png",
+            "paragraph":"text_about_us1"
+        },
+        {  
+            "title":"Example2",
+            "photo":"example_photo_2.png",
+            "paragraph":"text_about_us2"
+        },
+        {  
+            "title":"Example3",
+            "photo":"example_photo_3.png",
+            "paragraph":"text_about_us3"
+        }
+    ],
+    "Contacts":{  
+        "title":"Contacts",
+        "text":"some text",
+        "contacts":[  
+            {  
+                "title":"facebook",
+                "url":"link",
+                "icon":"facebook.png"
+            },
+            {  
+                "title":"phone",
+                "url":"+375297039373",
+                "icon":"phone.png"
+            },
+            {  
+                "title":"e-mail:",
+                "url":"searsiyr@gmail.com",
+                "icon":"phone.png"
+            },
+            {  
+                "title":"twiter",
+                "url":"link",
+                "icon":"twiter.png"
+            }
+        ]
+    },
+    "Team":{  
+        "title":"Team",
+        "text":"some text",
+        "team":[  
+            {  
+                "name":"Siyar",
+                "text":"some text",
+                "photo":"siyr.png"
+            },
+            {  
+                "name":"Kamila",
+                "text":"some text",
+                "photo":"kamila.png"
+            },
+            {  
+                "name":"Seva",
+                "text":"some text",
+                "photo":"seva.png"
+            },
+            {  
+                "name":"Anton",
+                "text":"some text",
+                "photo":"anton.png"
+            }
+        ]
+    }
+}
