@@ -12,14 +12,18 @@
         "title":"Software Development",
         "blocks":{  
             "Front-end":{  
-                "title":"Front-end",
-                "icon":"front-end.png",
-                "paragraph":"some text"
+                "title":"FRONTEND",
+                "icon":"front-end-medium.png",
+                "paragraph":"Our team  сreates flexible, beautiful,
+                 extensible interfaces to user interaction, using the latest technologies,such as CSS3, HTML5. 
+            The latest JS  frameworks and libraries as Angular, Reactjs, Vue and more other"
             },
             "Back-end":{  
-                "title":"Back-end",
-                "icon":"back-end.png",
-                "paragraph":"some text"
+                "title":"BACKEND",
+                "icon":"back-end-medium.png",
+                "paragraph":"We make fast, accurate and scalable solutions for yours busineses,
+            like server side Software for your managment system, web, mobile and desktop applications. We using Java, Microsoft .NET,
+            Node.js, Python"
             }
         }
     },
