@@ -1,4 +1,4 @@
-{  "navbar":["Home","Software Development","Software Maintenance","Portfolio", "Team","Contacts"],
+    {  "navbar":["Home","Software Development","Software Maintenance","Portfolio", "Team","Contacts"],
     "Index":{  
         "title":"What we do?",
         "paragraphs":[  
@@ -6,24 +6,20 @@
             "Software Maintenance",
             "Marvelous Solutions"
         ],
-        "image":"main_page_background_medium.png"
+        "image":"main_page_background_small.png"
     },
     "Software Development":{  
         "title":"Software Development",
         "blocks":{  
             "Front-end":{  
                 "title":"FRONTEND",
-                "icon":"front-end-medium.png",
-                "paragraph":"Our team  сreates flexible, beautiful,
-                 extensible interfaces to user interaction, using the latest technologies,such as CSS3, HTML5. 
-            The latest JS  frameworks and libraries as Angular, Reactjs, Vue and more other"
+                "icon":"../img/front-end-small.png",
+                "paragraph":"Our team  сreates flexible, beautiful, extensible interfaces to user interaction, using the latest technologies,such as CSS3, HTML5. The latest JS  frameworks and libraries as Angular, Reactjs, Vue and more other"
             },
             "Back-end":{  
                 "title":"BACKEND",
-                "icon":"back-end-medium.png",
-                "paragraph":"We make fast, accurate and scalable solutions for yours busineses,
-            like server side Software for your managment system, web, mobile and desktop applications. We using Java, Microsoft .NET,
-            Node.js, Python"
+                "icon":"../img/back-end-small.png",
+                "paragraph":"We make fast, accurate and scalable solutions for yours busineses, like server side Software for your managment system, web, mobile and desktop applications. We using Java, Microsoft .NET, Node.js, Python"
             }
         }
     },
@@ -32,17 +28,17 @@
         "blocks":{  
             "Adaptive":{  
                 "title":"Adaptive",
-                "icon":"Adaptive.png",
+                "icon":"../img/Adaptive.png",
                 "paragraph":"some text"
             },
             "Perfective":{  
                 "title":"Perfective",
-                "icon":"Perfective.png",
+                "icon":"../img/Perfective.png",
                 "paragraph":"some text"
             },
             "Preventive":{  
                 "title":"Preventive",
-                "icon":"Preventive.png",
+                "icon":"../img/Preventive.png",
                 "paragraph":"some text"
             }
         }
