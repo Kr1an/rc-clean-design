@@ -1,5 +1,6 @@
 body {
   position: relative;
+  min-width: 320px;
 }
 
 h1, h2, h4 {
@@ -31,10 +32,9 @@ p {
   font-family: SourceSansPro-Regular!important;
   font-size: 2rem!important;
 }
-
 li {
   font-family: SourceSansPro-Regular!important;
-  font-size: 4rem!important;
+  font-size: 2rem!important;
 }
 
 .pagenation {
@@ -132,6 +132,7 @@ li {
 }
 
 .offers > li:first-child {
+  color: red;
   position: relative !important;
   left: -10% !important;
   font-size: 4.5rem !important;
@@ -205,46 +206,50 @@ li {
 }
 .navbar-default {
     max-height: 10vh;
-    overflow: hidden;
     background: #fff!important;
     border: none!important;
 }
 .navbar-default .navbar-brand {
     text-indent: -1000px;
-    height: 10vh;
+
     width: 161px;
     margin: 0 30px!important;
     background: url(../img/a51f68d57b878ee65495c3123085422c.png) no-repeat 50% 50%;
     cursor: pointer;
 }
-.navbar-default .container form, .navbar-default .container ul {
-    height: 10vh!important;
-    display: flex;
-    align-items: center;
+
+.navbar-collapse {
+  background: #fff!important;
 }
-.navbar-default .container form a, .navbar-default .container ul a {
+
+.navbar-default .container-fluid form a, .navbar-default .container ul a {
     color: #506a85!important;
     font-family: SourceSansPro-Bold;
     font-size: 1.6rem;
     margin-left: 20px;
 }
-.navbar-default .container form a:hover, .navbar-default .container ul a:hover {
+.navbar-default .container-fluid form a:hover, .navbar-default .container ul a:hover {
     color: #2e3e4f!important;
 }
-.navbar-default .container form {
+.navbar-default .container-fluid form {
     margin: 0;
 }
-.navbar-default .container form input {
+.navbar-default .container-fluid form input {
     width: 0;
     border: none;
     box-shadow: none;
 }
-.navbar-default .container form span {
+.navbar-default .container-fluid form span {
     color: #506a85;
 }
-.navbar-default .container form span:hover {
+.navbar-default .container-fluid form span:hover {
     color: #2e3e4f!important;
     cursor: pointer;
+}
+
+.navbar button {
+  position: relative;
+  top: 2.5px;
 }
 
 .footer {
@@ -381,4 +386,50 @@ li {
 @font-face {
     font-family: SourceSansPro-Bold;
     src: url(../img/5c6c404eca1aa7c5951e05d7f2cf40eb.ttf);
+}
+
+@media (min-width: 320px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  p {
+    font-size: 1.15rem!important;
+  }
+
+  li {
+    font-size: 1.5rem!important;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-default .navbar-brand {
+    height: 10vh;
+  }
+  .container-fluid {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 4rem !important;
+  }
+
+  h2 {
+    font-size: 3rem !important;
+  }
+
+  p {
+    font-size: 2rem!important;
+  }
+
+  li {
+    font-size: 2.5rem!important;
+  }
 }
